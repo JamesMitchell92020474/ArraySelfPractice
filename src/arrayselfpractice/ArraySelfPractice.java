@@ -17,7 +17,7 @@ public class ArraySelfPractice {
      * @param args the command line arguments
      * @return 
      */
-    public static char main(String[] args) {
+    public static void main(String[] args) {
         
         //Integer long form
         int[] arrayOfInt = new int[4];
@@ -44,15 +44,17 @@ public class ArraySelfPractice {
         }
         
         System.out.println(Arrays.toString(arrayOfInt3));
-        return 0;
+        
         
         //Printing the alphabet
         //97
-//        char[] alpha = new char[26];
-//        for(int i = 0; i < 26; i++) {
-//        alpha[i] = (char)(97 + i);
-//        }
-//        System.out.println(Arrays.toString(alpha));
+        char[] alpha = new char[26];
+        
+        for(int i = 0; i < 26; i++) {
+            alpha[i] = (char)(97 + i);
+        }
+        
+        System.out.println(Arrays.toString(alpha));
         
         
    }
